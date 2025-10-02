@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify- Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- fontawesome -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- include for favicon -->
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home  bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" src="img/logo.svg" alt="">
+                </div>
+                <i id="cross" class="fa-solid fa-xmark"></i>
+
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>Your library </h2>
+                </div>
+
+                <div class="songslist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <i id="hammer" class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-less-than"></i>
+                    <i class="fa-solid fa-greater-than"></i>
+
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="folder1" class="card ">
+                        <div class="play">
+                            <img src="img/play.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+
+                   
+                    
+
+
+
+
+
+                    
+
+
+
+
+                   
+                   
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbutton">
+                            <i id="previous" class="fa-solid fa-backward-step"></i>
+                            <i id="play" class="fa-solid fa-circle-play"></i>
+                            <i id="next" class="fa-solid fa-forward-step"></i>
+                        </div>
+                        <div class="timvol">
+                           <div class="songtime">
+
+                             </div>
+                          <div class="volume">
+                               <i class="fa-solid fa-volume-high"></i>
+                               <div class="range">
+                                <input type="range" name="volume">
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
